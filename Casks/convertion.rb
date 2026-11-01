@@ -1,6 +1,6 @@
 cask "convertion" do
-  version "1.7"
-  sha256 "eb62bbdf8ef3047b7554fdf01c330f3149e582d5296f69784186b7883167765b"
+  version "1.8"
+  sha256 "593f91c0a834f26cd147d7b3c15d34bb3f803915eb36814ca1932db376d733c7"
 
   url "https://convertion.app/releases/Convertion-#{version}.zip"
   name "Convertion"
@@ -14,7 +14,6 @@ cask "convertion" do
     end
   end
 
-  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "Convertion.app"
