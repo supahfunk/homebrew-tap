@@ -1,6 +1,6 @@
 cask "convertion" do
-  version "1.8.1"
-  sha256 "d51a5ac6a72661a82aca2103791aa1193efca0468ac6360cd6e3bcfb03b37b3e"
+  version "1.9"
+  sha256 "bf3d767ca52aa8a1fbd1ea24b98b1a94758097ba0e80226179b84cf5a59521d7"
 
   url "https://convertion.app/releases/Convertion-#{version}.zip"
   name "Convertion"
